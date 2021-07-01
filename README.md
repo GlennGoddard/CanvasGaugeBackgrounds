@@ -10,11 +10,11 @@ I am in the process of removing wording from the backgrounds and using state-lab
 
 | List (WIP):   | Background   | Logo   |
 | --- | --- | --- |
-| Air Quaility (AQI)   |   |   |
-| Allergy   |   |   |
-| Asthma   |   |   |
+| Air Quaility (AQI)   | AQI_index.png   |   |
+| Allergy   | Allergy_Blank.png   | Allergy_Logo.png   |
+| Asthma   | Allergy_Blank.png   | Asthma_Logo.png   |
 | Beaufort Wind Scale   |   |   |
-| Cold&Flu   |   |   |
+| Cold&Flu   | Allergy_Blank.png   | Cold_Logo.png   |
 | DewPoint   |   |   |
 | Temperature   |   |   |
-| UV   |   |   |
+| UV   | UV_Blank.png   | sun-UV.png   |
