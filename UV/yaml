@@ -1,0 +1,162 @@
+type: picture-elements
+image: /local/gauge/UV_Blank.png
+elements:
+  - type: state-label
+    style:
+      top: 84%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_illuminance
+    attribute: ''
+    title: null
+  - type: state-label
+    style:
+      top: 89%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_solar_radiation
+    attribute: ''
+    title: null
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Low
+    style:
+      top: 65%
+      left: 5%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-45deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Moderate
+    style:
+      top: 10%
+      left: 10%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 130%
+      font-weight: bold
+      transform: rotate(30deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: High
+    style:
+      top: 5%
+      left: 45%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Very High
+    style:
+      top: 10%
+      left: 70%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Extreme
+    style:
+      top: 80%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(40deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:canvas-gauge-card
+    entity: sensor.wf_uv_index
+    style:
+      top: 50%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 0
+      maxValue: 13
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - '0'
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+        - '13'
+      minorTicks: 5
+      strokeTicks: true
+      highlights:
+        - from: 2.5
+          to: 5.5
+          color: rgba(247, 228, 1, .75)
+        - from: 0
+          to: 2.5
+          color: rgba(40, 149, 0, .75)
+        - from: 5.5
+          to: 7.5
+          color: rgba(248, 123, 1, .75)
+        - from: 7.5
+          to: 10.5
+          color: rgba(216, 23, 0, .75)
+        - from: 10.5
+          to: 13
+          color: rgba(75, 46, 154, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 1
+      valueInt: null
+  - type: image
+    image: /local/gauge/sun-UV.png
+    style:
+      top: 50%
+      left: 50%
+      width: 25%
+      box-shadow: none
+      background-color: transparent
