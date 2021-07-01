@@ -10,7 +10,7 @@ I am in the process of removing wording from the backgrounds and using state-lab
 
 | List (WIP):   | Background   | Logo   |
 | --- | --- | --- |
-| Air Quaility   |   |   |
+| Air Quaility (AQI)   |   |   |
 | Allergy   |   |   |
 | Asthma   |   |   |
 | Beaufort Wind Scale   |   |   |
