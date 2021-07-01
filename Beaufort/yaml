@@ -1,0 +1,313 @@
+type: picture-elements
+image: /local/gauge/Beaufort.png
+elements:
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Hurricane
+    style:
+      top: 85%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(45deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Violent
+    style:
+      top: 63%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 130%
+      font-weight: bold
+      transform: rotate(30deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Storm
+    style:
+      top: 47%
+      left: 85%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Strong
+    style:
+      top: 27%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-20deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Gale
+    style:
+      top: 32%
+      left: 82%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-20deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Gale
+    style:
+      top: 10%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: High Wind
+    style:
+      top: 7%
+      left: 57%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-55deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Strong
+    style:
+      top: 5%
+      left: 42%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(90deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Breeze
+    style:
+      top: 5%
+      left: 38%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(90deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Fresh Breeze
+    style:
+      top: 10%
+      left: 18%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(60deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Moderate Breeze
+    style:
+      top: 17%
+      left: 0%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(37deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Gentle Breeze
+    style:
+      top: 32%
+      left: 0%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(30deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Light Breeze
+    style:
+      top: 45%
+      left: 0%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Light Air
+    style:
+      top: 60%
+      left: 0%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-30deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Calm
+    style:
+      top: 75%
+      left: 5%
+      color: black
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:canvas-gauge-card
+    style:
+      top: 50%
+      left: 50%
+      width: null
+      heigth: null
+      box-shadow: none
+      background-color: transparent
+      transform: scale(1,1) translate(-50%,-50%)
+    card_height: 230
+    entity: sensor.wf_beaufort_scale
+    name: ''
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 0
+      maxValue: 13
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+      minorTicks: 0
+      strokeTicks: true
+      highlights:
+        - from: 0
+          to: 0.99
+          color: rgba(255, 255, 255, .75)
+        - from: 1
+          to: 1.99
+          color: rgba(174, 241, 249, .75)
+        - from: 2
+          to: 2.99
+          color: rgba(150, 247, 220, .75)
+        - from: 3
+          to: 3.99
+          color: rgba(150, 247, 180, .75)
+        - from: 4
+          to: 4.99
+          color: rgba(111, 244, 111, .75)
+        - from: 5
+          to: 5.99
+          color: rgba(115, 237, 18, .75)
+        - from: 6
+          to: 6.99
+          color: rgba(164, 237, 18, .75)
+        - from: 7
+          to: 7.99
+          color: rgba(218, 237, 18, .75)
+        - from: 8
+          to: 8.99
+          color: rgba(237, 194, 18, .75)
+        - from: 9
+          to: 9.99
+          color: rgba(237, 143, 18, .75)
+        - from: 10
+          to: 10.99
+          color: rgba(237, 99, 18, .75)
+        - from: 11
+          to: 11.99
+          color: rgba(237, 41, 18, .75)
+        - from: 12
+          to: 13
+          color: rgba(213, 16, 45, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 0
+      valueInt: 0
+  - type: image
+    image: /local/gauge/Wind_logo.png
+    style:
+      top: 50%
+      left: 52%
+      width: 20%
+      box-shadow: none
+      background-color: transparent
