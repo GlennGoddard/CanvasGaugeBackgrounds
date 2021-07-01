@@ -1,0 +1,100 @@
+type: picture-elements
+image: /local/gauge/Allergy_Blank.png
+elements:
+  - type: state-label
+    style:
+      top: 84%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.allergy_index_today
+    attribute: allergen_name_1
+    title: null
+  - type: state-label
+    style:
+      top: 89%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.allergy_index_today
+    attribute: allergen_name_2
+    title: null
+  - type: state-label
+    style:
+      top: 94%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.allergy_index_today
+    attribute: allergen_name_3
+    title: null
+  - type: custom:canvas-gauge-card
+    entity: sensor.allergy_index_today
+    style:
+      top: 50%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 0
+      maxValue: 12
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - '0'
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+        - '6'
+        - '7'
+        - '8'
+        - '9'
+        - '10'
+        - '11'
+        - '12'
+      minorTicks: 5
+      strokeTicks: true
+      highlights:
+        - from: 0
+          to: 2.4
+          color: rgba(104, 200, 67, .75)
+        - from: 2.4
+          to: 4.8
+          color: rgba(104, 250, 67, .75)
+        - from: 4.8
+          to: 7.2
+          color: rgba(255, 255, 85, .75)
+        - from: 7.2
+          to: 9.6
+          color: rgba(239, 133, 51, .75)
+        - from: 9.6
+          to: 12
+          color: rgba(234, 51, 36, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 1
+      valueInt: null
+  - type: image
+    image: /local/gauge/Allergy_Logo.png
+    style:
+      top: 50%
+      left: 50%
+      width: 25%
+      box-shadow: none
+      background-color: transparent
