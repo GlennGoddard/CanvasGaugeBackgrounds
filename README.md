@@ -8,13 +8,13 @@ The backgound and logo pictures need to be placed in your 'local'/'www' director
 
 I am in the process of removing wording from the backgrounds and using state-label for text, this will allow any language of your choice.
 
-| List (WIP):   | Background   | Logo   |
-| --- | --- | --- |
-| Air Quaility (AQI)   | AQI_index.png   |   |
-| Allergy   | Allergy_Blank.png   | Allergy_Logo.png   |
-| Asthma   | Allergy_Blank.png   | Asthma_Logo.png   |
-| Beaufort Wind Scale   |   |   |
-| Cold&Flu   | Allergy_Blank.png   | Cold_Logo.png   |
-| DewPoint   |   |   |
-| Temperature   |   |   |
-| UV   | UV_Blank.png   | sun-UV.png   |
+| List (WIP):   | Background   | Logo   | Example   |
+| --- | --- | --- | --- |
+| Air Quaility (AQI)   | AQI_index.png   |   | X    |
+| Allergy   | Allergy_Blank.png   | Allergy_Logo.png   | X   |
+| Asthma   | Allergy_Blank.png   | Asthma_Logo.png   | X   |
+| Beaufort Wind Scale   |   |   | X   |
+| Cold&Flu   | Allergy_Blank.png   | Cold_Logo.png   | X   |
+| DewPoint   |   |   | X   |
+| Temperature   |   |   | X   |
+| UV   | UV_Blank.png   | sun-UV.png   | X   |
