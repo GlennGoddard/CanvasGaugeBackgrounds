@@ -1,0 +1,271 @@
+type: picture-elements
+image: /local/gauge/Temperature.png
+elements:
+  - type: state-label
+    style:
+      top: 84%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_temperature
+    prefix: 'Max (yesterday): '
+    attribute: max_day
+    title: null
+  - type: state-label
+    style:
+      top: 89%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_temperature
+    prefix: 'Min (yesterday): '
+    attribute: min_day
+    title: null
+  - type: state-label
+    style:
+      top: 94%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_feels_like_temperature
+    prefix: 'Feels Like: '
+    attribute: ''
+    title: null
+  - type: state-label
+    style:
+      top: 98%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_temperature_level
+    prefix: ''
+    attribute: ''
+    title: null
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Inferno
+    style:
+      top: 85%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(45deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Very Hot
+    style:
+      top: 63%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 130%
+      font-weight: bold
+      transform: rotate(30deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Hot
+    style:
+      top: 47%
+      left: 85%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Warm
+    style:
+      top: 30%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-20deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Nice
+    style:
+      top: 10%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Cool
+    style:
+      top: 5%
+      left: 60%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-55deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Chilly
+    style:
+      top: 5%
+      left: 30%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Cold
+    style:
+      top: 10%
+      left: 7%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(40deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Freezing
+    style:
+      top: 35%
+      left: 0%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(10deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Fridged
+    style:
+      top: 70%
+      left: 5%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-48deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:canvas-gauge-card
+    style:
+      top: 50%
+      left: 50%
+      width: null
+      heigth: null
+      box-shadow: none
+      background-color: transparent
+    card_height: 230
+    entity: sensor.wf_temperature
+    name: ''
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 0
+      maxValue: 110
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - 0
+        - 10
+        - 20
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+        - 90
+        - 100
+        - 110
+      minorTicks: 10
+      strokeTicks: true
+      highlights:
+        - from: 0
+          to: 20
+          color: rgba(182, 66, 245, .75)
+        - from: 20
+          to: 32
+          color: rgba(5, 19, 235, .75)
+        - from: 32
+          to: 41
+          color: rgba(52, 120, 255, .75)
+        - from: 41
+          to: 59
+          color: rgba(52, 189, 235, .75)
+        - from: 59
+          to: 68
+          color: rgba(100, 255, 200, .75)
+        - from: 68
+          to: 77
+          color: rgba(104, 200, 67, .75)
+        - from: 77
+          to: 86
+          color: rgba(200, 255, 67, .75)
+        - from: 86
+          to: 95
+          color: rgba(255, 255, 85, .75)
+        - from: 95
+          to: 104
+          color: rgba(239, 133, 51, .75)
+        - from: 104
+          to: 110
+          color: rgba(255, 0, 0, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 0
+      valueInt: 0
+  - type: image
+    image: /local/gauge/Temperature_Logo.png
+    style:
+      top: 50%
+      left: 52%
+      width: 20%
+      box-shadow: none
+      background-color: transparent
