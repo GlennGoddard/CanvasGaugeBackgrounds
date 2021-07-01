@@ -1,0 +1,238 @@
+type: picture-elements
+image: /local/gauge/Dewpoint.png
+elements:
+  - type: state-label
+    style:
+      top: 84%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+    entity: sensor.wf_dewpoint_comfort_level
+    prefix: ''
+    attribute: ''
+    title: null
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Dry
+    style:
+      top: 50%
+      left: 5%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Somewhat Dry
+    style:
+      top: 5%
+      left: 10%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Very
+    style:
+      top: 7%
+      left: 46%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-90deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Comfortable
+    style:
+      top: 7%
+      left: 44%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-78deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Comfortable
+    style:
+      top: 8%
+      left: 52%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-68deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Ok for Most
+    style:
+      top: 9%
+      left: 62%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-55deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Uncomfortable
+    style:
+      top: 14%
+      left: 70%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Oppressive
+    style:
+      top: 24%
+      left: 75%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-30deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Miserable
+    style:
+      top: 36%
+      left: 77%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(-10deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: state-label
+    entity: sensor.blank_blank
+    prefix: Severely High
+    style:
+      top: 65%
+      left: 73%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 120%
+      font-weight: bold
+      transform: rotate(50deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:canvas-gauge-card
+    style:
+      top: 50%
+      left: 50%
+      width: null
+      heigth: null
+      box-shadow: none
+      background-color: transparent
+      transform: scale(1,1) translate(-50%,-50%)
+    card_height: 230
+    entity: sensor.wf_dew_point
+    name: ''
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 0
+      maxValue: 100
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - 0
+        - 10
+        - 20
+        - 30
+        - 40
+        - 50
+        - 60
+        - 70
+        - 80
+        - 90
+        - 100
+      minorTicks: 10
+      strokeTicks: true
+      highlights:
+        - from: 0
+          to: 30
+          color: rgba(5, 19, 235, .75)
+        - from: 30
+          to: 50
+          color: rgba(52, 189, 235, .75)
+        - from: 50
+          to: 55
+          color: rgba(104, 250, 67, .75)
+        - from: 55
+          to: 60
+          color: rgba(104, 200, 67, .75)
+        - from: 60
+          to: 65
+          color: rgba(255, 255, 85, .75)
+        - from: 65
+          to: 70
+          color: rgba(239, 133, 51, .75)
+        - from: 70
+          to: 75
+          color: rgba(234, 51, 36, .75)
+        - from: 75
+          to: 80
+          color: rgba(140, 26, 75, .75)
+        - from: 80
+          to: 100
+          color: rgba(115, 20, 37, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 0
+      valueInt: 0
+  - type: image
+    image: /local/gauge/Dewpoint_logo.png
+    style:
+      top: 50%
+      left: 50%
+      width: 20%
+      box-shadow: none
+      background-color: transparent
