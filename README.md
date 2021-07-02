@@ -19,6 +19,8 @@ I am in the process of removing wording from the backgrounds and using state-lab
 | Temperature   | Temperature.png   | Temperature_Logo.png   | X   |
 | UV   | UV_Blank.png   | sun-UV.png   | X   |
 
+These examples are taken from Home Assistant and display exactly how it will look.
+
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/AQI/Example_AQI.jpg?raw=true)
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/Allergy/Example_Allergy.jpg?raw=true)
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/Asthma/Example_Asthma.jpg?raw=true)
