@@ -11,9 +11,8 @@ elements:
     prefix: ''
     attribute: ''
     title: null
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Dry
+  - type: custom:text-element
+    text: Dry
     style:
       top: 50%
       left: 5%
@@ -25,12 +24,11 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Somewhat Dry
+  - type: custom:text-element
+    text: Somewhat </br> Dry
     style:
       top: 5%
-      left: 10%
+      left: 17%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 120%
@@ -39,23 +37,8 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Very
-    style:
-      top: 7%
-      left: 46%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 120%
-      font-weight: bold
-      transform: rotate(-90deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Comfortable
+  - type: custom:text-element
+    text: Very </br> Comfortable
     style:
       top: 7%
       left: 44%
@@ -63,16 +46,15 @@ elements:
       font-family: Quicksand
       font-size: 120%
       font-weight: bold
-      transform: rotate(-78deg)
+      transform: rotate(-80deg)
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Comfortable
+  - type: custom:text-element
+    text: Comfortable
     style:
-      top: 8%
-      left: 52%
+      top: 9%
+      left: 54%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 120%
@@ -81,12 +63,11 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Ok for Most
+  - type: custom:text-element
+    text: Ok for Most
     style:
       top: 9%
-      left: 62%
+      left: 65%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 120%
@@ -95,26 +76,24 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Uncomfortable
+  - type: custom:text-element
+    text: Uncomfortable
     style:
       top: 14%
-      left: 70%
+      left: 73%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 120%
       font-weight: bold
-      transform: rotate(-40deg)
+      transform: rotate(-45deg)
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Oppressive
+  - type: custom:text-element
+    text: Oppressive
     style:
-      top: 24%
-      left: 75%
+      top: 26%
+      left: 78%
       color: rgb(255,255,255)
       font-family: Quicksand
       font-size: 120%
@@ -123,23 +102,21 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Miserable
+  - type: custom:text-element
+    text: Miserable
     style:
-      top: 36%
-      left: 77%
+      top: 38%
+      left: 79%
       color: rgb(255,255,255)
       font-family: Quicksand
       font-size: 120%
       font-weight: bold
-      transform: rotate(-10deg)
+      transform: rotate(-12deg)
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Severely High
+  - type: custom:text-element
+    text: Severely High
     style:
       top: 65%
       left: 73%
