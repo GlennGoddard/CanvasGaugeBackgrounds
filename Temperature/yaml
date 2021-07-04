@@ -41,107 +41,34 @@ elements:
     prefix: ''
     attribute: ''
     title: null
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Inferno
+  - type: custom:text-element
+    text: Fridged
     style:
-      top: 85%
-      left: 80%
+      top: 70%
+      left: 5%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-48deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Freezing
+    style:
+      top: 35%
+      left: 1%
       color: rgb(255,255,255)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(45deg)
+      transform: rotate(10deg)
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Very Hot
-    style:
-      top: 63%
-      left: 80%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 130%
-      font-weight: bold
-      transform: rotate(30deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Hot
-    style:
-      top: 47%
-      left: 85%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(0deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Warm
-    style:
-      top: 30%
-      left: 80%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(-20deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Nice
-    style:
-      top: 10%
-      left: 80%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(-40deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Cool
-    style:
-      top: 5%
-      left: 60%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(-55deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Chilly
-    style:
-      top: 5%
-      left: 30%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(0deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Cold
+  - type: custom:text-element
+    text: Cold
     style:
       top: 10%
       left: 7%
@@ -153,31 +80,94 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Freezing
+  - type: custom:text-element
+    text: Chilly
     style:
-      top: 35%
-      left: 0%
-      color: rgb(255,255,255)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(10deg)
-      background-color: rgba(0,0,0,.0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Fridged
-    style:
-      top: 70%
-      left: 5%
+      top: 5%
+      left: 35%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(-48deg)
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Cool
+    style:
+      top: 5%
+      left: 63%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-60deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Nice
+    style:
+      top: 10%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-40deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Warm
+    style:
+      top: 30%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(-20deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Hot
+    style:
+      top: 47%
+      left: 85%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Very Hot
+    style:
+      top: 63%
+      left: 80%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 130%
+      font-weight: bold
+      transform: rotate(30deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Inferno
+    style:
+      top: 85%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(45deg)
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
