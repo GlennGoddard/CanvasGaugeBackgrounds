@@ -19,9 +19,8 @@ elements:
     entity: sensor.wf_solar_radiation
     attribute: ''
     title: null
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Low
+  - type: custom:text-element
+    text: Low
     style:
       top: 65%
       left: 5%
@@ -33,9 +32,8 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Moderate
+  - type: custom:text-element
+    text: Moderate
     style:
       top: 10%
       left: 10%
@@ -47,9 +45,8 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: High
+  - type: custom:text-element
+    text: High
     style:
       top: 5%
       left: 45%
@@ -61,9 +58,8 @@ elements:
       background-color: rgba(0,0,0,.0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Very High
+  - type: custom:text-element
+    text: Very High
     style:
       top: 10%
       left: 70%
@@ -75,17 +71,16 @@ elements:
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Extreme
+  - type: custom:text-element
+    text: Extreme
     style:
-      top: 80%
+      top: 70%
       left: 80%
       color: rgb(255,255,255)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(40deg)
+      transform: rotate(45deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
