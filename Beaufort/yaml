@@ -1,40 +1,37 @@
 type: picture-elements
 image: /local/gauge/Beaufort.png
 elements:
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Hurricane
+  - type: custom:text-element
+    text: Calm
     style:
-      top: 85%
-      left: 80%
-      color: rgb(255,255,255)
+      top: 75%
+      left: 5%
+      color: black
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(45deg)
+      transform: rotate(-40deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Violent
+  - type: custom:text-element
+    text: Light </br> Air
     style:
-      top: 63%
-      left: 80%
-      color: rgb(255,255,255)
+      top: 60%
+      left: 5%
+      color: rgb(0,0,0)
       font-family: Quicksand
-      font-size: 130%
+      font-size: 140%
       font-weight: bold
-      transform: rotate(30deg)
+      transform: rotate(-30deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Storm
+  - type: custom:text-element
+    text: Light </br> Breeze
     style:
-      top: 47%
-      left: 85%
+      top: 45%
+      left: 5%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
@@ -43,65 +40,47 @@ elements:
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Strong
+  - type: custom:text-element
+    text: Gentle </br> Breeze
     style:
       top: 27%
-      left: 80%
+      left: 5%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(-20deg)
+      transform: rotate(30deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Gale
+  - type: custom:text-element
+    text: Moderate </br> Breeze
     style:
-      top: 32%
-      left: 82%
+      top: 13%
+      left: 5%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(-20deg)
+      transform: rotate(37deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Gale
-    style:
-      top: 10%
-      left: 80%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(-40deg)
-      background-color: rgba(0,0,0,0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: High Wind
+  - type: custom:text-element
+    text: Fresh </br> Breeze
     style:
       top: 7%
-      left: 57%
+      left: 27%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(-55deg)
+      transform: rotate(60deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Strong
+  - type: custom:text-element
+    text: Strong </br>Breeze
     style:
       top: 5%
       left: 42%
@@ -113,68 +92,50 @@ elements:
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Breeze
+  - type: custom:text-element
+    text: High </br> Wind
     style:
-      top: 5%
-      left: 38%
+      top: 7%
+      left: 60%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(90deg)
+      transform: rotate(-60deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Fresh Breeze
+  - type: custom:text-element
+    text: Gale
     style:
-      top: 10%
-      left: 18%
+      top: 13%
+      left: 80%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(60deg)
+      transform: rotate(-40deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Moderate Breeze
+  - type: custom:text-element
+    text: Strong Gale
     style:
-      top: 17%
-      left: 0%
+      top: 27%
+      left: 80%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(37deg)
+      transform: rotate(-20deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Gentle Breeze
+  - type: custom:text-element
+    text: Storm
     style:
-      top: 32%
-      left: 0%
-      color: rgb(0,0,0)
-      font-family: Quicksand
-      font-size: 140%
-      font-weight: bold
-      transform: rotate(30deg)
-      background-color: rgba(0,0,0,0)
-      border-radius: 50%
-      text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Light Breeze
-    style:
-      top: 45%
-      left: 0%
+      top: 47%
+      left: 85%
       color: rgb(0,0,0)
       font-family: Quicksand
       font-size: 140%
@@ -183,31 +144,29 @@ elements:
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Light Air
+  - type: custom:text-element
+    text: Violent
     style:
-      top: 60%
-      left: 0%
-      color: rgb(0,0,0)
+      top: 63%
+      left: 80%
+      color: rgb(255,255,255)
       font-family: Quicksand
-      font-size: 140%
+      font-size: 130%
       font-weight: bold
-      transform: rotate(-30deg)
+      transform: rotate(30deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
-  - type: state-label
-    entity: sensor.blank_blank
-    prefix: Calm
+  - type: custom:text-element
+    text: Hurricane
     style:
-      top: 75%
-      left: 5%
-      color: black
+      top: 80%
+      left: 75%
+      color: rgb(255,255,255)
       font-family: Quicksand
       font-size: 140%
       font-weight: bold
-      transform: rotate(-40deg)
+      transform: rotate(45deg)
       background-color: rgba(0,0,0,0)
       border-radius: 50%
       text-align: center
