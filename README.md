@@ -10,11 +10,13 @@ I will be removing the blank sensor and redoing all the front-end yaml to use th
 In sensor.yaml which is included in configuration.yaml
 Fake Sensor to give a blank for state-label in picture-elements card
 This is not a space this is a special ASCII character between the quotes.
+```
 - platform: template
   sensors:
     blank_blank:
       friendly_name: "Blank Blank"
       value_template: " "
+```
 
 I am in the process of removing wording from the backgrounds and using state-label for text, this will allow any language of your choice.
 
