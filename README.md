@@ -6,6 +6,16 @@ The yaml will need to be modified to match the sensors that your system has.
 You will need to install the custom canvas gauge for this to work.
 The backgound and logo pictures need to be placed in your 'local'/'www' directory for Home Assistant.
 
+I will be removing the blank sensor and redoing all the front-end yaml to use the custom-text-element instead of the state-label
+In sensor.yaml which is included in configuration.yaml
+Fake Sensor to give a blank for state-label in picture-elements card
+This is not a space this is a special ASCII character between the quotes.
+- platform: template
+  sensors:
+    blank_blank:
+      friendly_name: "Blank Blank"
+      value_template: " "
+
 I am in the process of removing wording from the backgrounds and using state-label for text, this will allow any language of your choice.
 
 | List (WIP):   | Background   | Logo   | Example   |
