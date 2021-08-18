@@ -1,0 +1,141 @@
+type: picture-elements
+image: /local/gauge/WBGT.png
+elements:
+  - type: custom:text-element
+    text: No Flag
+    style:
+      top: 65%
+      left: 5%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Low
+    style:
+      top: 10%
+      left: 10%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 130%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Moderate
+    style:
+      top: 5%
+      left: 45%
+      color: rgb(0,0,0)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,.0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: High
+    style:
+      top: 20%
+      left: 85%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:text-element
+    text: Extreme
+    style:
+      top: 65%
+      left: 80%
+      color: rgb(255,255,255)
+      font-family: Quicksand
+      font-size: 140%
+      font-weight: bold
+      transform: rotate(0deg)
+      background-color: rgba(0,0,0,0)
+      border-radius: 50%
+      text-align: center
+  - type: custom:canvas-gauge-card
+    entity: sensor.wf_wet_bulb_globe_temperature
+    style:
+      top: 50%
+      left: 50%
+      box-shadow: none
+      background-color: transparent
+      transform: scale(1,1) translate(-50%,-50%)
+    gauge:
+      type: radial-gauge
+      title: ''
+      width: 230
+      height: 230
+      minValue: 79
+      maxValue: 92.9
+      startAngle: 40
+      ticksAngle: 280
+      valueBox: true
+      majorTicks:
+        - '79'
+        - '80'
+        - '81'
+        - '82'
+        - '83'
+        - '84'
+        - '85'
+        - '86'
+        - '87'
+        - '88'
+        - '89'
+        - '90'
+        - '91'
+        - '92'
+        - '93'
+      minorTicks: 5
+      strokeTicks: true
+      highlights:
+        - from: 79
+          to: 82
+          color: rgba(255, 255, 255, .75)
+        - from: 82
+          to: 85
+          color: rgba(40, 149, 0, .75)
+        - from: 85
+          to: 88
+          color: rgba(247, 228, 1, .75)
+        - from: 88
+          to: 90
+          color: rgba(216, 23, 0, .75)
+        - from: 90
+          to: 93
+          color: rgba(50, 50, 50, .75)
+      borders: 'no'
+      needleType: arrow
+      needleWidth: 4
+      needleCircleSize: 7
+      needleCircleOuter: true
+      needleCircleInner: false
+      animationDuration: 1500
+      animationRule: linear
+      valueBoxBorderRadius: 10
+      colorValueBoxRect: '#222'
+      colorValueBoxRectEnd: '#333'
+      valueDec: 1
+      valueInt: null
+  - type: image
+    image: /local/gauge/wbgt_logo.png
+    style:
+      top: 50%
+      left: 50%
+      width: 25%
+      box-shadow: none
+      background-color: transparent
