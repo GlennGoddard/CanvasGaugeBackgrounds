@@ -30,6 +30,7 @@ I am in the process of removing wording from the backgrounds and using state-lab
 | DewPoint   | Dewpoint.png   | Dewpoint_logo.png   | X   |
 | Temperature   | Temperature.png   | Temperature_Logo.png   | X   |
 | UV   | UV_Blank.png   | sun-UV.png   | X   |
+| Wet Bulb Golb Temperature   | WBGT.png   | wbgt_logo.png   | X   |
 
 These examples are taken from Home Assistant and display exactly how it will look.
 
@@ -41,3 +42,4 @@ These examples are taken from Home Assistant and display exactly how it will loo
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/DewPoint/Example_DewPoint.jpg?raw=true)
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/Temperature/Example_Temperature.jpg?raw=true)
 ![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/UV/Example_UV.jpg?raw=true)
+![alt text](https://github.com/GlennGoddard/CanvasGaugeBackgrounds/blob/main/WBGT/Example_WBGT.jpg?raw=true)
