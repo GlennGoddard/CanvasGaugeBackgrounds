@@ -31,6 +31,7 @@ I am in the process of removing wording from the backgrounds and using state-lab
 | Temperature   | Temperature.png   | Temperature_Logo.png   | X   |
 | UV   | UV_Blank.png   | sun-UV.png   | X   |
 | Wet Bulb Golb Temperature   | WBGT.png   | wbgt_logo.png   | X   |
+| Air Pressure   | air_pressure.png   | air_pressure_logo.png | -   |
 
 These examples are taken from Home Assistant and display exactly how it will look.
 
