@@ -56,7 +56,7 @@ cards:
           border-radius: 50%
           text-align: center
       - type: custom:text-element
-        text: Very Hight
+        text: Very High
         style:
           top: 65%
           left: 80%
