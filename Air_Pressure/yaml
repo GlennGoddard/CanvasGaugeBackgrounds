@@ -1,0 +1,133 @@
+type: vertical-stack
+cards:
+  - type: picture-elements
+    image: /local/gauge/air_pressure.png
+    elements:
+      - type: custom:text-element
+        text: Very Low
+        style:
+          top: 65%
+          left: 5%
+          color: rgb(255,255,255)
+          font-family: Quicksand
+          font-size: 140%
+          font-weight: bold
+          transform: rotate(0deg)
+          background-color: rgba(0,0,0,.0)
+          border-radius: 50%
+          text-align: center
+      - type: custom:text-element
+        text: Low
+        style:
+          top: 10%
+          left: 10%
+          color: rgb(0,0,0)
+          font-family: Quicksand
+          font-size: 130%
+          font-weight: bold
+          transform: rotate(0deg)
+          background-color: rgba(0,0,0,.0)
+          border-radius: 50%
+          text-align: center
+      - type: custom:text-element
+        text: Normal
+        style:
+          top: 5%
+          left: 45%
+          color: rgb(255,255,255)
+          font-family: Quicksand
+          font-size: 140%
+          font-weight: bold
+          transform: rotate(0deg)
+          background-color: rgba(0,0,0,.0)
+          border-radius: 50%
+          text-align: center
+      - type: custom:text-element
+        text: High
+        style:
+          top: 10%
+          left: 75%
+          color: rgb(255,255,255)
+          font-family: Quicksand
+          font-size: 140%
+          font-weight: bold
+          transform: rotate(0deg)
+          background-color: rgba(0,0,0,0)
+          border-radius: 50%
+          text-align: center
+      - type: custom:text-element
+        text: Very Hight
+        style:
+          top: 65%
+          left: 80%
+          color: rgb(255,255,255)
+          font-family: Quicksand
+          font-size: 140%
+          font-weight: bold
+          transform: rotate(0deg)
+          background-color: rgba(0,0,0,0)
+          border-radius: 50%
+          text-align: center
+      - type: custom:canvas-gauge-card
+        entity: sensor.nr_sea_level_pressure
+        style:
+          top: 50%
+          left: 50%
+          box-shadow: none
+          background-color: transparent
+          transform: scale(1,1) translate(-50%,-50%)
+        gauge:
+          type: radial-gauge
+          title: ""
+          width: 230
+          height: 230
+          minValue: 29
+          maxValue: 31
+          startAngle: 40
+          ticksAngle: 280
+          valueBox: true
+          majorTicks:
+            - "29"
+            - "29.5"
+            - "30"
+            - "30.5"
+            - "31"
+          minorTicks: 5
+          strokeTicks: true
+          highlights:
+            - from: 29
+              to: 29.4
+              color: rgba(255, 0, 0, .75)
+            - from: 29.4
+              to: 29.8
+              color: rgba(255, 165, 1, .75)
+            - from: 29.8
+              to: 30.2
+              color: rgba(0, 128, 0, .75)
+            - from: 30.2
+              to: 30.5
+              color: rgba(100, 100, 230, .75)
+            - from: 30.5
+              to: 31
+              color: rgba(0, 0, 250, .75)
+          borders: "no"
+          needleType: arrow
+          needleWidth: 4
+          needleCircleSize: 7
+          needleCircleOuter: true
+          needleCircleInner: false
+          animationDuration: 1500
+          animationRule: linear
+          valueBoxBorderRadius: 10
+          colorValueBoxRect: "#222"
+          colorValueBoxRectEnd: "#333"
+          valueDec: 3
+          valueInt: null
+      - type: image
+        image: /local/gauge/air_pressure_logo.png
+        style:
+          top: 50%
+          left: 50%
+          width: 25%
+          box-shadow: none
+          background-color: transparent
